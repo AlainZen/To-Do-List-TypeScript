@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List en TypeScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+<!-- Inscription -->
+     
+<div id="register-container" class="card">
+  <h2>Inscription</h2>
+  <input id="register-email" type="email" placeholder="Email" />
+  <input id="register-password" type="password" placeholder="Mot de passe" />
+  <button id="register-btn">S'inscrire</button>
+</div>
+
+<!-- Connexion -->
+<div id="login-container" class="card">
+  <h2>Connexion</h2>
+  <input id="login-email" type="email" placeholder="Email" />
+  <input id="login-password" type="password" placeholder="Mot de passe" />
+  <button id="login-btn">Se connecter</button>
+</div>
+
+<!-- Tâches -->
+    <div id="tasks-container" style="display: none;">
+      <h2>Mes tâches</h2>
+      <div id="task-form">
+        <input id="task-title" type="text" placeholder="Titre" />
+        <input id="task-description" type="text" placeholder="Description" />
+        <input id="task-deadline" type="date" />
+        <button id="add-task-btn">Ajouter</button>
+      </div>
+      <div id="task-list"></div>
+    </div>
+  </div>
+  <script type="module" src="../dist/main.js"></script>
+</body>
+</html>

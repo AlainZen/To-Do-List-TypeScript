@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Ce projet est une application de To-Do List réalisée avec TypeScript, permettant aux utilisateurs de :\r - S'inscrire et se connecter,\r - Créer, valider et supprimer des tâches,\r - Associer chaque tâche à un utilisateur connecté.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

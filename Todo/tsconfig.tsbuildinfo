@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/auth/login.ts","./src/auth/register.ts","./src/tasks/createtask.ts","./src/tasks/deletetask.ts","./src/tasks/listtasks.ts","./src/tasks/validatetask.ts","./src/utils/localstorageutils.ts","./src/utils/types.ts"],"version":"5.7.3"}
